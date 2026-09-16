@@ -1,0 +1,6 @@
+Computer Type: MacBook Air
+CPU: Apple M2
+Memory: 8 GB
+OS: MacOS Tahoe 26.6.2
+HD: 494.38 GB
+Display Resolution: 2560x1664
