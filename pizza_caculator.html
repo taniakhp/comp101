@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Pizza Cost Calculator</title>
+
+</head>
+
+<body>
+
+    <h1>Pizza Cost Calculator</h1>
+
+    <p>How many pizzas do you want?</p>
+<input type="number" id="quantity">
+
+    <p>How much does each pizza cost?</p>
+<input type="number" id="price">
+<button onclick="calculate()">Calculate Total</button>
+
+<p id="result"></p>
+<script>
+function calculate() {
+    let quantity = Number(document.getElementById("quantity").value);
+    let price = Number(document.getElementById("price").value);
+
+    let total = quantity * price;
+
+    document.getElementById("result").innerHTML = "The total cost is $" + total;
+}
+</script>
+</body>
+
+</html>
